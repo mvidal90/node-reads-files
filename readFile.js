@@ -1,6 +1,6 @@
-const fs = require("node:fs")
+import fs from "node:fs"
 
-const readFile = () => {
+export const readFile = () => {
     const file = fs.readFileSync("./ejemplo.txt");
     const data = file.toString()
     const rows = data.split("\n")
@@ -8,6 +8,6 @@ const readFile = () => {
     console.log(matrix)
 }
 
-module.exports = {
-    readFile
-}
+// module.exports = {
+//     readFile
+// }

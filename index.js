@@ -1,8 +1,10 @@
-const {auxLog} = require('./auxFunction.js')
-const {readFile} = require('./readFile.js')
+// import {auxLog} from './auxFunction.js'
+// import {readFile} from './readFile.js'
+
+import { calculatorProcess } from "./calculator.js"
 
 
-console.log("Nuestro primer script en Nodejs")
+// console.log("Nuestro primer script en Nodejs")
 
 // const array = ["peras", "bananas", "maracuya", "kiwi", "manzana"]
 
@@ -11,8 +13,10 @@ console.log("Nuestro primer script en Nodejs")
 //     console.log(fruits)
 // }
 
-auxLog()
+// auxLog()
 
-readFile()
+// readFile()
+
+calculatorProcess()
 
 console.log("-----FIN------")
