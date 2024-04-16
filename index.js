@@ -1,7 +1,9 @@
 // import {auxLog} from './auxFunction.js'
 // import {readFile} from './readFile.js'
 
-import { calculatorProcess } from "./calculator.js"
+import { fileController } from "./fileController.js"
+
+// import { calculatorProcess } from "./calculator.js"
 
 
 // console.log("Nuestro primer script en Nodejs")
@@ -17,6 +19,8 @@ import { calculatorProcess } from "./calculator.js"
 
 // readFile()
 
-calculatorProcess()
+// calculatorProcess()
+fileController()
 
-console.log("-----FIN------")
+
+// console.log("-----FIN------")
